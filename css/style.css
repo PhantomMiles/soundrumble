@@ -1,0 +1,345 @@
+@font-face {
+    src: url(../fonts/tangerine-regular.ttf);
+    font-family: tangerine;
+}
+
+@font-face {
+    src: url(../fonts/tajawal-regular.ttf);
+    font-family: tajawal;
+}
+
+@font-face {
+    src: url(../fonts/roboto-regular.ttf);
+    font-family: roboto;
+}
+
+@font-face {
+    src: url(../fonts/opensanscondensed-bold.ttf);
+    font-family: opensans;
+}
+
+@font-face {
+    src: url(../fonts/boogaloo-regular.ttf);
+    font-family: boogaloo;
+}
+
+@font-face {
+    src: url(../fonts/greatvibes-regular.ttf);
+    font-family: greatvibes;
+}
+
+@font-face {
+    src: url(../fonts/satisfy-regular.ttf);
+    font-family: satisfy;
+}
+
+@font-face {
+    src: url(../fonts/proximanova-regular.otf);
+    font-family: proxima-nova;
+}
+
+@font-face {
+    src: url(../fonts/lato-regular.ttf);
+    font-family: lato;
+}
+
+@font-face {
+    src: url(../fonts/Lobster-Regular.ttf);
+    font-family: lobster;
+}
+
+@font-face {
+    src: url(../fonts/Merriweather-Regular.ttf);
+    font-family: merriweather;
+}
+
+@font-face {
+    src: url(../fonts/Khand-Regular.ttf);
+    font-family: khand;
+}
+
+@font-face {
+    src: url(../fonts/NotoSansJP-Regular.otf);
+    font-family: notosans;
+}
+
+@font-face {
+    src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+    font-family: dancing-script;
+}
+
+@font-face {
+    src: url(../fonts/Pacifico-Regular.ttf);
+    font-family: pacifico;
+}
+
+@font-face {
+    src: url(../fonts/Nosifer-Regular.ttf);
+    font-family: nosifer;
+}
+
+@font-face {
+    src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+    font-family: playfair;
+}
+
+@font-face {
+    src: url(../fonts/PTSans-Regular.ttf);
+    font-family: pt-sans;
+}
+
+@font-face {
+    src: url(../fonts/Quicksand-VariableFont_wght.ttf);
+    font-family: quicksand;
+}
+
+@font-face {
+    src: url(../fonts/Sofia-Regular.ttf);
+    font-family: sofia;
+}
+
+@font-face {
+    src: url(../fonts/SourceSansPro-Regular.ttf);
+    font-family: sourcesans;
+}
+
+@font-face {
+    src: url(../fonts/Uchen-Regular.ttf);
+    font-family: uchen;
+}
+
+@font-face {
+    src: url(../fonts/ZenLoop-Regular.ttf);
+    font-family: zenloop;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+
+.slider {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-color: rgba(0, 0, 0, 0.421); */
+    background-blend-mode: darken;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+header {
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 25px;
+    background: transparent;
+    border: 3px solid#fff;
+    border-radius: 20px;
+    transition: all 0.4s ease-in-out;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgb(247, 202, 2);
+    background: #fff;
+}
+
+.content {
+    color: #fbfcfd;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 10px 0 30px;
+    line-height: 80px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.content h2,
+h3 {
+    text-shadow: 2px 2px 2px black;
+}
+
+hr {
+    width: 350px;
+    height: 3px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+    background: rgba(0, 0, 0, 0.524);
+}
+
+.side-bar {
+    width: 50px;
+    height: 99.5vh;
+    background: linear-gradient( rgb(247, 202, 2), rgb(0, 0, 0));
+    position: absolute;
+    display: block;
+    padding: 5px 15px 0;
+    color: ghostwhite;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+i.fa {
+    font-size: 15px;
+    padding: 25px 10px 0;
+    display: block;
+    cursor: pointer;
+}
+
+.fa.fa-bars {
+    font-size: 20px;
+    padding: 20px 15px 0;
+}
+
+ul li {
+    list-style-type: none;
+    color: ghostwhite;
+    font-size: 15px;
+}
+
+.side-bar a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+    display: block;
+    color: ghostwhite;
+    align-items: center;
+    transition: all 0.4s ease-in-out;
+    font-family: sourcesans;
+}
+
+.side-bar a:hover {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.side-bar a.current {
+    text-shadow: 2px 2px 5px #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.side-bar a.current i {
+    font-size: 20px;
+}
+
+h3 {
+    font-family: sourcesans;
+}
+
+.side-bar a i:hover {
+    font-size: 25px;
+}
+
+.sticky {
+    position: fixed;
+    top: -10;
+    width: 50px;
+}
+
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+
+.sticky+.content {
+    padding-top: 102px;
+}
+
+.player {
+    width: 188.7vh;
+    height: 15vh;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    display: block;
+    padding: 5px 15px 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+ul:nth-child(2) {
+    margin-top: 100px;
+}
+
+.profile {
+    display: none;
+}
+
+.player td i {
+    color: #fff;
+    margin: 10px;
+    font-size: 20px;
+    display: inline;
+    justify-content: space-between;
+}
+
+.player td {
+    padding: 15px 0 1px;
+    color: #fff;
+}
+
+.player td h3 {
+    margin: 20px 0 0;
+    font-size: 25px;
+}
+
+.player td h3,
+img {
+    display: inline;
+}
+
+input {
+    width: 180vh;
+}
+
+.songs {
+    width: 100%;
+    height: 100vh;
+    padding: 50px 0;
+}
+
+.songs h1 {
+    font-size: 50px;
+    margin-left: 30px;
+    color: rgba(0, 0, 0, 0.524);
+    text-shadow: none;
+}
+
+.songs td h2 {
+    text-align: center;
+    margin: -30px 0 0;
+    font-family: sourcesans;
+    color: rgba(0, 0, 0, 0.57);
+}
