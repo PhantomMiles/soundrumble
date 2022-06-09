@@ -349,3 +349,10 @@ input {
     height: 100vh;
     display: inline-flexbox;
 }
+
+.artist .widget {
+    width: 300px;
+    height: 9vh;
+    border: 2px solid rgb(247, 202, 2);
+    box-shadow: 3px 5px 3px black;
+}
